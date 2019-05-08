@@ -1,0 +1,72 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@3.2">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.triggers.SCMTrigger_-SCMTriggerCause/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.triggers.SCMTrigger_-BuildAction/>
+    <jenkins.scm.cvs.QuietPeriodCompleted plugin="cvs@2.14">
+      <timestamp>1557307391427</timestamp>
+    </jenkins.scm.cvs.QuietPeriodCompleted>
+    <org.jenkinsci.plugins.envinject.EnvInjectPluginAction plugin="envinject@2.1.6"/>
+    <hudson.plugins.git.util.BuildData plugin="git@3.9.3">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.7.7">
+              <sha1>7a2c3b9e5d67200780d5649514f12b2d7d51e0e1</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/master</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>9</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/tejagudla/java-project.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.9.3">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/master</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/home/accession8/.jenkins/workspace/project_4</ws>
+    </hudson.plugins.git.GitTagAction>
+    <hudson.scm.SCMRevisionState_-None/>
+    <com.sonyericsson.rebuild.RebuildAction plugin="rebuild@1.30"/>
+  </actions>
+  <queueId>40</queueId>
+  <timestamp>1557307391429</timestamp>
+  <startTime>1557307391487</startTime>
+  <result>FAILURE</result>
+  <duration>2283</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/home/accession8/.jenkins/workspace/project_4</workspace>
+  <hudsonVersion>2.150.2</hudsonVersion>
+  <scm class="hudson.plugins.git.GitChangeLogParser" plugin="git@3.9.3">
+    <authorOrCommitter>false</authorOrCommitter>
+  </scm>
+  <culprits class="com.google.common.collect.RegularImmutableSortedSet">
+    <string>46219389+tejagudla</string>
+    <string>noreply</string>
+    <string>teja.g98</string>
+  </culprits>
+  <mavenVersionUsed>3.6.1</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

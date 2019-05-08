@@ -1,0 +1,23 @@
+Started by an SCM change
+[EnvInject] - Loading node environment variables.
+Building in workspace /home/accession8/.jenkins/workspace/project_4
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/tejagudla/java-project.git # timeout=10
+Fetching upstream changes from https://github.com/tejagudla/java-project.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/tejagudla/java-project.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7a2c3b9e5d67200780d5649514f12b2d7d51e0e1 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7a2c3b9e5d67200780d5649514f12b2d7d51e0e1
+Commit message: "del pm"
+ > git rev-list --no-walk 8d8498afb26bacbf96983b3f812a142913b4a615 # timeout=10
+Parsing POMs
+ERROR: Failed to find configuration named [] check the global configuration
+Build step 'Send files or execute commands over SSH' changed build result to UNSTABLE
+ERROR: No such file /home/accession8/.jenkins/workspace/project_4/pom.xml
+Perhaps you need to specify the correct POM file path in the project configuration?
+Finished: FAILURE

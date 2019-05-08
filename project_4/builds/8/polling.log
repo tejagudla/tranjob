@@ -1,0 +1,10 @@
+Started on 8 May, 2019 2:51:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision e1d80d8ff44a39bb64b51c781fac3c8a5a497db5 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/tejagudla/java-project.git # timeout=10
+Found 1 remote heads on https://github.com/tejagudla/java-project.git
+[poll] Latest remote head revision on refs/heads/master is: 7a2c3b9e5d67200780d5649514f12b2d7d51e0e1
+Done. Took 1.9 sec
+Changes found

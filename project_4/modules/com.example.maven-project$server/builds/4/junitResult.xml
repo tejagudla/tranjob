@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<result plugin="junit@1.27">
+  <suites>
+    <suite>
+      <file>/home/accession8/.jenkins/workspace/project_4/server/target/surefire-reports/TEST-com.example.TestGreeter.xml</file>
+      <name>com.example.TestGreeter</name>
+      <duration>0.266</duration>
+      <time>0.266</time>
+      <enclosingBlocks/>
+      <enclosingBlockNames/>
+      <cases>
+        <case>
+          <duration>0.044</duration>
+          <className>com.example.TestGreeter</className>
+          <testName>greetShouldIncludeTheOneBeingGreeted</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.012</duration>
+          <className>com.example.TestGreeter</className>
+          <testName>greetShouldIncludeGreetingPhrase</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.266</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

@@ -1,0 +1,69 @@
+[INFO] 
+[INFO] ------------------< com.example.maven-project:server >------------------
+[INFO] Building Server 1.0-SNAPSHOT                                       [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4OLUtEO6xxwPAQFQVZG+Vn2kfOt6iYEsyOMQ5nq9o9/aAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ server ---
+[INFO] Deleting /home/accession8/.jenkins/workspace/project_4/server/target
+[INFO] 
+[8mha:////4OLUtEO6xxwPAQFQVZG+Vn2kfOt6iYEsyOMQ5nq9o9/aAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ server ---
+[debug] execute contextualize
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/accession8/.jenkins/workspace/project_4/server/src/main/resources
+[INFO] 
+[8mha:////4OLUtEO6xxwPAQFQVZG+Vn2kfOt6iYEsyOMQ5nq9o9/aAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ server ---
+[INFO] Compiling 1 source file to /home/accession8/.jenkins/workspace/project_4/server/target/classes
+[INFO] 
+[8mha:////4OLUtEO6xxwPAQFQVZG+Vn2kfOt6iYEsyOMQ5nq9o9/aAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ server ---
+[debug] execute contextualize
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/accession8/.jenkins/workspace/project_4/server/src/test/resources
+[INFO] 
+[8mha:////4OLUtEO6xxwPAQFQVZG+Vn2kfOt6iYEsyOMQ5nq9o9/aAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ server ---
+[INFO] Compiling 1 source file to /home/accession8/.jenkins/workspace/project_4/server/target/test-classes
+[INFO] 
+[8mha:////4OLUtEO6xxwPAQFQVZG+Vn2kfOt6iYEsyOMQ5nq9o9/aAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ server ---
+[INFO] Surefire report directory: /home/accession8/.jenkins/workspace/project_4/server/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.example.TestGreeter
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.27 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[JENKINS] Recording test results
+[8mha:////4PrBfGWIxJ2iye72q82k2J/f3wHLNWK5T/as61EKZ70IAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Attempt to (de-)serialize anonymous class hudson.maven.reporters.SurefireArchiver$2; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+[8mha:////4PrBfGWIxJ2iye72q82k2J/f3wHLNWK5T/as61EKZ70IAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Attempt to (de-)serialize anonymous class hudson.maven.reporters.BuildInfoRecorder$1; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+[INFO] 
+[8mha:////4OLUtEO6xxwPAQFQVZG+Vn2kfOt6iYEsyOMQ5nq9o9/aAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ server ---
+[INFO] Building jar: /home/accession8/.jenkins/workspace/project_4/server/target/server.jar
+[INFO] 
+[8mha:////4OLUtEO6xxwPAQFQVZG+Vn2kfOt6iYEsyOMQ5nq9o9/aAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ server ---
+[INFO] Installing /home/accession8/.jenkins/workspace/project_4/server/target/server.jar to /home/accession8/.m2/repository/com/example/maven-project/server/1.0-SNAPSHOT/server-1.0-SNAPSHOT.jar
+[INFO] Installing /home/accession8/.jenkins/workspace/project_4/server/pom.xml to /home/accession8/.m2/repository/com/example/maven-project/server/1.0-SNAPSHOT/server-1.0-SNAPSHOT.pom
+[INFO] 
+[8mha:////4OLUtEO6xxwPAQFQVZG+Vn2kfOt6iYEsyOMQ5nq9o9/aAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ server ---
+[debug] execute contextualize
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/accession8/.jenkins/workspace/project_4/server/src/main/resources
+[INFO] 
+[8mha:////4OLUtEO6xxwPAQFQVZG+Vn2kfOt6iYEsyOMQ5nq9o9/aAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ server ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4OLUtEO6xxwPAQFQVZG+Vn2kfOt6iYEsyOMQ5nq9o9/aAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ server ---
+[debug] execute contextualize
+[INFO] Using 'utf-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/accession8/.jenkins/workspace/project_4/server/src/test/resources
+[INFO] 
+[8mha:////4OLUtEO6xxwPAQFQVZG+Vn2kfOt6iYEsyOMQ5nq9o9/aAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ server ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[8mha:////4OLUtEO6xxwPAQFQVZG+Vn2kfOt6iYEsyOMQ5nq9o9/aAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.11:test (default-test) @ server ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[JENKINS] Recording test results
+[INFO] 
+[8mha:////4OLUtEO6xxwPAQFQVZG+Vn2kfOt6iYEsyOMQ5nq9o9/aAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ server ---
